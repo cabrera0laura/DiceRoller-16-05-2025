@@ -10,7 +10,7 @@ namespace DiceRoller
         public int FaceParaBaixo;
         public int FaceParaCima; // posso escrever diretamente o atributo com letra maiuscula o VS2022 entende. 
         public int QuantidadeDeFaces;
-        public bool 
+        public bool Resultado;
 
         public Dice(int faces)
         {
