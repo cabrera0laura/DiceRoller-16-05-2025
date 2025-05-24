@@ -1,14 +1,13 @@
-﻿
-using System.Security.Cryptography.X509Certificates;
+﻿using System.Security.Cryptography.X509Certificates;
 
-namespace DiceRoller
+namespace DiceRoller.Models
 {
     public class Contador
     {
         public int Sequencia;
         public int Pontos;
         public int Limite;
-        public String Venceu;
+        public string Venceu;
 
         //              classe --> nomeCLasse    
         public void Jogar(Dice dadoJogador, int numeroSelecionado )

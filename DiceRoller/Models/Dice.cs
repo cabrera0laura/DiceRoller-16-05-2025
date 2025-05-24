@@ -1,5 +1,4 @@
-﻿
-namespace DiceRoller
+﻿namespace DiceRoller.Models
 {
     public class Dice
     {
