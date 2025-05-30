@@ -21,7 +21,7 @@ namespace DiceRoller.ViewModels
         private string nomeUsuario;
 
        
-        pulic GameViewModel() {
+        public GameViewModel() {
             DiceImage = "dice1.png";
             NomeUsuario = "Eu";
         }
