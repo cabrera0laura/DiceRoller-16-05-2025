@@ -10,13 +10,10 @@
             InitializeComponent();
         }
 
-
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void CounterBtn_Clicked(object sender, EventArgs e)
         {
-            count++;
-            CounterLabel.Text = $"Contador: {count}";
-        }
 
+        }
     }
 
 }
