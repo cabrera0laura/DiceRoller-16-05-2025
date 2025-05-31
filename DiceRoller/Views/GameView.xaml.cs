@@ -11,4 +11,9 @@ public partial class GameView : ContentPage
 		//viewmodel da conexção com a interface.
 
 	}
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

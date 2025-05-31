@@ -15,15 +15,11 @@
             />
         <Label
             Text="{Binding NomeUsuario}"/>
-        <Picker>
-            <Picker.Items>
-                <x:String>1</x:String>
-                <x:String>2</x:String>
-                <x:String>3</x:String>
-                <x:String>4</x:String>
-                <x:String>5</x:String>
-                <x:String>6</x:String>
-            </Picker.Items>
-        </Picker>
+
+        <Button
+            Text="Sortear"
+            Command="{Binding NomeDoComando}" 
+            /> 
+        <!--substitui o Clicked > Command esta associado... -->
     </VerticalStackLayout>
 </ContentPage>
