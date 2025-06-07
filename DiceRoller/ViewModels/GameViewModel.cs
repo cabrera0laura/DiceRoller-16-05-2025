@@ -15,7 +15,7 @@ namespace DiceRoller.ViewModels
         //(notificar em classe Observable,alterações)
         //fazendo anotações: 
 
-        [ObservableProperty]//cria uma propriedade get;set
+        [ObservableProperty]//cria uma propriedade get;set  informações que quero interagir
         private string diceImage;
 
         [ObservableProperty]
@@ -30,7 +30,7 @@ namespace DiceRoller.ViewModels
         public GameViewModel() {
             DiceImage = "dice1.png";
             NomeUsuario = "Eu";
-            JogarCommand = new Command(Jogar);
+            JogarCommand = new Command(Jogar); // jogarCommand executa jogar
         }
 
         public ICommand JogarCommand { private set; get; } //vincula com public void Jogar()
